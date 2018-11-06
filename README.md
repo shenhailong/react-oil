@@ -42,3 +42,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# 配置步骤
+## 1 npm run eject
+## 2 alias 配置 修改 config 文件夹下的 paths 文件 webpack dev/prod 都需要配置一下
+## 3 src 下新建setupProxy.js 配置代理，只有一个可以在package.json里面配置，多个就需要这样了，（以前再package.json 里面 配置对象就行，现在只能是string类型了，这是因为react-script的原因）

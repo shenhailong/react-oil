@@ -82,6 +82,14 @@ module.exports = {
   appNodeModules: resolveApp('node_modules'),
   publicUrl: getPublicUrl(resolveApp('package.json')),
   servedPath: getServedPath(resolveApp('package.json')),
+  // 配置的 alias
+  srcUrl: resolveApp('src'),
+  componentsUrl: resolveApp('src/components'),
+  pagesUrl: resolveApp('src/pages'),
+  routerUrl: resolveApp('src/router'),
+  storesUrl: resolveApp('src/stores'),
+  utilsUrl: resolveApp('src/utils'),
+  containersUrl: resolveApp('src/containers')
 };
 
 
